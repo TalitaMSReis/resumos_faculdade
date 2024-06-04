@@ -34,4 +34,4 @@ Representarei o que aprendi a seguir.
 
 </html>`
 
-Este é o código inteiro e com ele é possível pegar o valor a soma das 4 notas (n1, n2, n3 e n4), calcular a média, e com o if, se a média for maior ou igual a 7 apresentar "Aprovado!", e com o else, se não apresentar "Reprovado :(".
+Este é o código inteiro e com ele é possível pegar o valor a soma das 4 notas (n1, n2, n3 e n4), calcular a média, e com o if, se a média for maior ou igual a 7 apresentar "Aprovado!", e com o else if, se a média for menor que 5 apresentar "Reprovado :(", e por último mas não menos importante, com else, se não apresentar "Recuperação. Estude mais para passar!".
