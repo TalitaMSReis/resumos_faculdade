@@ -1,2 +1,4 @@
-# resumos_faculdade
-Colocarei resumos do que aprendi na faculdade.
+# Estruturas de Condição
+Nesta aula eu aprendi sobre estrutura de condições básicas, sendo if else.
+Representarei o que aprendi a seguir.
+
