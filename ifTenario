@@ -1,0 +1,54 @@
+
+##  Estruturas de Condição | if Tenário
+
+### Nesta aula aprendi quanto a estruta de condição mais simples que o próprio if else.
+
+A difença está nos símbolos **?** (substituindo o if) e o **:** (substituindo o else).
+
+No código a seguir será possível observar como ele é utilizado:
+
+```<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estruturas de Condição</title>
+
+        <script>
+            const n1 = Number(prompt('Digite a nota 1'))
+            const n2 = Number(prompt('Digite a nota 2'))
+            const n3 = Number(prompt('Digite a nota 3'))
+            const n4 = Number(prompt('Digite a nota 4')) 
+
+            const media = (n1+n2+n3+n4) / 4
+            console.log ("A média final é " + media)
+/*
+            let mensagem = ''
+            if(media >=7){
+                mensagem ='Aprovado!!!'
+            } else {
+                mensagem = "Reprovado :'("
+            }
+            console.log (mensagem)
+*/
+            let mensagem = media >=7 ? 'Aprovado!!' : 'Reprovado :/'
+            console.log (mensagem)
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+
+</html> 
+``` 
+
+Destacando este trecho:
+``` 
+let mensagem = media >=7 ? 'Aprovado!!' : 'Reprovado :/'
+ console.log (mensagem)
+ ```
+ É possível observar que o **?** funciona como **se** (if) e o **:** funciona como o **se não** (else).
+
+Agradeço a atenção, e até o resumo da próxima aula! 
