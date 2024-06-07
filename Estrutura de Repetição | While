@@ -5,3 +5,45 @@
 As estruturas de repetição são importantes para evitar a repetição de trechos de código. Permitindo assim que um trecho se repita até que ocorra a condição de parada.
 
 No código a seguir será possível observar como ela é utilizada:
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estruturas de Repetição</title>
+        <meta charset = "UTF-8">
+        <script>
+            let contador = 1
+            const qtd = prompt ("Quantas notas?")
+            let soma = 0
+            let nota = 0
+
+            while(contador <= qtd){
+
+                do{
+                    nota = Number (prompt ('Digite a nota ' + contador))
+
+                }while (nota>10)
+
+                 
+                soma = soma + nota
+                //contador = contador + 1
+                contador ++ 
+                
+            }
+            console.log('Soma: ' + soma)
+            console.log("Nota: " + nota)
+
+            const media = soma/qtd 
+            console.log("Média: " + media)
+
+            const resultado = media >=7 ? "Aprovado!" : "Reprovado"
+            console.log("Resultado: " + resultado)
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+
+</html>
+``` 
