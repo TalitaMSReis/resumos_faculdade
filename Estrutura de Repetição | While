@@ -47,3 +47,24 @@ No código a seguir será possível observar como ela é utilizada:
 
 </html>
 ``` 
+Destacando este trecho:
+``` 
+while(contador <= qtd){
+
+                do{
+                    nota = Number (prompt ('Digite a nota ' + contador))
+
+                }while (nota>10)
+
+                 
+                soma = soma + nota
+                //contador = contador + 1
+                contador ++ 
+ ```
+ Observamos que a repetição ocorrerá até a quantidade que foi solicitada ao usuário no primeiro **while**, no **do** foi solicitada as que fosse digitada as notas e no segundo **while** foi limitado que não fosse aceito uma nota maior do que o número 10.
+
+[!TIP]
+Note que o `contador ++` é o mesmo que `contador = contador + 1` , que significa que acrescenta mais 1 na variável contador a cada rodada. 
+
+
+Agradeço a atenção, e até o resumo da próxima aula! 
