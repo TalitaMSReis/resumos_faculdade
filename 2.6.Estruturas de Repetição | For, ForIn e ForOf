@@ -1,0 +1,119 @@
+
+##  Estruturas de Repetição | For, forIn e forOf
+
+### Nesta aula aprendi sobre o for, forIn e forOf, que sendo elas estruturas de Repetição.
+
+As estruturas de repetição são importantes para evitar a repetição de trechos de código. Permitindo assim que um trecho se repita até que ocorra a condição de parada.
+
+No código a seguir será possível observar como For é utilizada:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estruturas de Repetição</title>
+        <meta charset = "UTF-8">
+        <script>
+            //inicialização
+            // condição
+            // incremento
+
+            //(i = contador)
+
+            const qtd = prompt("Quantas notas?")
+            let nota = 0
+            let soma = 0
+
+
+            for(let i = 1; i <= qtd ; i++){
+                nota = Number (prompt ('Digite a nota ' + i))
+                soma = soma + nota
+
+                
+
+            }
+
+            const media = soma/qtd
+
+            console.log('A média final é : ' + media)
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+
+</html>
+``` 
+
+No seguinte código será possível observar como ForIn e ForOf é utilizada:
+``` 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estruturas de Repetição</title>
+        <meta charset = "UTF-8">
+        <script>
+            // Variável do tipo string
+            const nome = "Talita"
+
+            //Variável do tipo inteiro 
+            const nota = 1
+
+            //O objeto ele começa com a abertura das chaves {} e termina com o fechamento delas
+            const pessoa = {nome: "Talita", telefone: '(61)98765-4321', endereco: 'Q NA LT 00 APTO 00',}
+            // Existe uma única variável com vários atributos como nome, telefone e endereço...
+            /*
+            Quando se tem muitos atributos é comum que esteja organizado da seguinte forma:
+            const pessoa = {nome: "Talita", 
+            telefone: '(61)98765-4321'. 
+            endereço: 'Q NA LT 00 APTO 00'
+            email: 'seuemail@gmail.com',
+            idade: '27',
+            }
+            */
+
+            /*Duas formas que acessar o atributo
+            console.log (pessoa.nome)
+            console.log (pessoa['nome'])
+            */
+
+            /* for in
+            for(let atributo in pessoa){
+                console.log( atributo + ': ' +pessoa[atributo])
+            }
+*/
+
+            // Variável do tipo Array, sendo somente uma variável que amarzena vários valores, dentro de cochetes [] 
+            const carros = ['Gol', 'Fusca', 'Virtus', 'Ka', 'Kombi']
+
+            
+
+/*          Para acessar a array dentro dos cochetes tem que colocar o número do indice, sempre começa com 0
+            console.log(carros[4])
+*/
+
+            for(let automovel of carros ){
+                console.log(automovel);
+            }
+
+                
+            
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+
+</html>
+ ```
+ Fiz algumas observações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+[!TIP]
+Note que o `i` é o mesmo que `contador`, normalmente no mercado é utilizado i(interation), para simbolizar o contador. 
+
+
+Agradeço a atenção, e até o resumo da próxima aula! 
