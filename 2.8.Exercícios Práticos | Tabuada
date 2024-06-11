@@ -1,0 +1,40 @@
+##  Exercícios Práticos | Tabuada
+
+### Nesta aula fizemos um exercício para praticar o conteúdo aprendido.
+
+Foi feito um código usando `for` para repetir os número fazendo assim uma tabuada de 1 a 10.
+
+Pelo código a seguir.
+
+```
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>Tabuada</title>
+        <meta charset="UTF-8">
+
+        <script>
+
+            //const multiplicador = Number(prompt('Digite a tabuada de qual número que deseja.'))
+
+            for( let i = 0; i<=10; i++){
+
+                console.log('Tabuada de '+ i)
+                for(let n = 1; n <= 10; n++)
+                console.log(i + ' x ' + n + ' = ' + i*n)
+
+            }
+           
+            
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+ Fiz algumas observações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 

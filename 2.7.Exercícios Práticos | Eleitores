@@ -1,0 +1,67 @@
+##  Exercícios Práticos | Eleitores
+
+### Nesta aula fizemos um exercício para praticar o conteúdo aprendido.
+
+Foi feito um código usando if else para condicionar atravez da idade, se o usuário pode ou não votar e se é ou não obrigatório.
+
+Pelo código a seguir.
+
+```
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>Eleitores</title>
+        <meta charset="UTF-8">
+
+        <script>
+
+            const anoVotacao = Number(prompt('Digite o ano da Eleitção.')) 
+            const anoNascimento =  Number(prompt('Digite o ano de nascimento.'))
+
+            const idade = anoVotacao - anoNascimento
+/*
+            if(idade <16){
+                console.log('Você tem ' + idade + ' anos, sendo assim não possui a idade mínima de 16 anos para votar.')
+            } else if (idade >= 16 && idade < 18 ){
+                console.log('Você tem ' + idade + ' anos. Você pode ou não votar, é facultativo! ')
+            } else if (idade >= 18 && idade <65){
+                console.log('Você tem ' + idade + ' anos. Você DEVE votar, é OBRIGATÓRIO!. ')
+            } else if (idade >= 65){
+                console.log('Você tem ' + idade + ' anos. Você pode ou não votar, é facultativo! ')
+            }
+*/
+
+            if(idade <16){
+                console.log('Você tem ' + idade + ' anos, sendo assim não possui a idade mínima de 16 anos para votar.')
+            } else if (idade >= 18 && idade <65){
+                console.log('Você tem ' + idade + ' anos. Você DEVE votar, é OBRIGATÓRIO!. ')
+            } else {
+                console.log('Você tem ' + idade + ' anos. Você pode ou não votar, é facultativo! ')
+            }
+
+
+            /*
+            outra opção possível do else if é: else if (idade == 16 || idade == 17 )
+            */
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+No seguinte código será possível observar as condições feitas utilizando if else:
+``` 
+ if(idade <16){
+                console.log('Você tem ' + idade + ' anos, sendo assim não possui a idade mínima de 16 anos para votar.')
+            } else if (idade >= 18 && idade <65){
+                console.log('Você tem ' + idade + ' anos. Você DEVE votar, é OBRIGATÓRIO!. ')
+            } else {
+                console.log('Você tem ' + idade + ' anos. Você pode ou não votar, é facultativo! ')
+            }
+ ```
+ Fiz algumas observações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 
