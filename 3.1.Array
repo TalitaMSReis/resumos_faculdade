@@ -1,0 +1,100 @@
+##  Array
+
+### Nesta aula aprendi mais sobre Array.
+
+Foi feito um código usando Array com explicações sobre como funciona.
+
+Podemos observer pelo código a seguir.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+        <meta charset="UTF-8">
+        <script>
+
+            // Existem variáveis simples
+            // O tipo da variável nome é String, que fica entre ""
+            const nome = 'Talita'
+            // O tipo da variável idade é inteiro, que representa um número inteiro, se colocar uma casa decimal como "7.18", vira um float
+            const idade = 27
+
+            // Existem variáveis compostas, do tipo array, sendo mais complexa do que as demais, são dinâmicas, o exemplo a seguir é de somente uma variável.
+            const carros = ['Gol', 'Fusca', 'Virtus', 'Ka', 'Kombi']
+            //Não necessariamente uma array deve ter todos os elementos do mesmo tipo, pode ser um String outro inteiro e assim em diante. obs: isso depende de cada linguagem da programação.
+
+/*
+            console.log(carros)
+            // console.table mosta como tabela, mostando o índice (index) e o valor (value)
+            console.table(carros)
+*/
+/*
+            //Para exibir somente um dos valores podemos colocar entre [] o número do índice do valor que queremos
+            console.log(carros[5])
+*/
+/*
+            //Também é possível usar o forOf, onde será listado todos os automoveis, que são elementos da variável 
+            for(let automovel of carros){
+                console.log(automovel)
+            }
+*/
+/*
+            //Também é possível utilizar o for da seguinte forma
+            for (let i=0; i<5; i++){
+                console.log(carros[i])
+            }
+*/
+            
+            console.table(carros)
+           // Para adiconar um novo elemento no final de uma array
+            carros.push('Fiesta')
+            console.table(carros)
+            // Para adicionar um novo elemento no inicio de uma array
+            carros.unshift('Palio')
+            console.table(carros)
+
+            // Para retirar um novo elemento do final de uma array
+            const carro = carros.pop()
+            console.table(carro)
+            console.table(carros)
+
+            // Para retirar um novo elemento do inicio de uma array
+            carros.shift()
+            console.table(carros)
+
+            //O splice serve tanto para exclui, adicionar(na posição que quer) e editar dentro de uma array.
+            carros.splice(2,1)
+            //Primeiro se coloca o número do item que gostaria de excluir, separa por vírgula e depois coloca a quantidade de itens que deve ser excluido
+            console.table(carros)
+
+            //Para adicionar um item em uma posição diferente
+            carros.splice(2,0, 'Uno')
+            //Primeiro se coloca o número do item que gostaria de excluir, separa por vírgula e depois coloca a quantidade de itens que deve ser excluido, caso não queria excluir nenhum é só colocar 0, separa novamente com uma vírgula e coloca o item que gostaria de adicionar.
+            console.table(carros)
+            // Para substituir é só ao invés de colocar 0 na quantidade que é para excluir, colocar 1 e depois o item que deve ser adicionado.
+        
+            /*
+            Resumindo:
+            Splice serve para:
+            -Excluir itens a partir de uma posição
+            -Inserir itens a partir de uma posição
+            -Alterar itens a partir de uma posição
+            */
+
+            // O Sort ordena o array, por ordem alfabetica
+            carros.sort()
+            console.table(carros)
+        
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+Fiz algumas observações e explicações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 
