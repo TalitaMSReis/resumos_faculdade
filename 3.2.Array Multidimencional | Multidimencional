@@ -1,1 +1,64 @@
 
+##  Array Multidimencional
+
+### Nesta aula aprendi mais sobre Arrays Multidimencionais.
+
+Foi feito um código explorando multidimencionalidade de uma Array com explicações sobre como funciona.
+
+Podemos observar pelo código a seguir.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays Multidimencionais</title>
+        <meta charset="UTF-8">
+        <script>
+            // Nesta Array o tipo de dao é String
+            const nomes = [
+            'Talita',
+            'Larissa',
+            'Maria',
+            'José',
+            'Antônio'
+            ]
+
+            //Já nesta Array o tipo de dado é inteiro
+            const idades = [
+                18,
+                20,
+                24,
+                30,
+                36
+            ]
+
+            //Em uma Array multidimencional, o tipo de dado a uma Array que contém outra Array
+            const notas = [
+                [10, 8, 9, 7] ,
+                [9, 8, 10, 8],
+                [5, 10, 9, [1, 2, 3]],
+                [6, 7, 2, 10],
+                [8, 3, 6, 10]
+            ]
+            //Lembrando que uma Array é possível colocar tipos váriados misturados, sem nenhum problema
+            
+            console.table(nomes[0])
+            console.table(idades[3])
+            console.table(notas[2][3][0])
+            //Caso tenha mais de duas dimensões dentro de uma Array, não será possível visualizar dentro da tabela, mas poderá ver clicando na setinha
+            console.table(notas)
+            
+            
+            
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+Fiz algumas observações e explicações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 
