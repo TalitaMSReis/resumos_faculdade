@@ -1,1 +1,86 @@
+##  Array Multidimencional
 
+### Nesta aula aprendi mais sobre Arrays Multidimencionais.
+
+Foi feito um código explorando multidimencionalidade de uma Array com explicações sobre como funciona.
+
+Podemos observar pelo código a seguir.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays e Objetos</title>
+        <meta charset="UTF-8">
+        <script>
+            // Nesta Array o tipo de dao é String
+            const nomes = [
+            'Talita',
+            'Larissa',
+            'Maria',
+            'José',
+            'Antônio'
+            ]
+
+            //Já nesta Array o tipo de dado é inteiro
+            const idades = [
+                18,
+                20,
+                24,
+                30,
+                36
+            ]
+
+            //Em uma Array multidimencional, o tipo de dado a uma Array que contém outra Array
+            const notas = [
+                [10, 8, 9, 7] ,
+                [9, 8, 10, 8],
+                [5, 10, 9, [1, 2, 3]],
+                [6, 7, 2, 10],
+                [8, 3, 6, 10]
+            ]
+            //Uma Array trata vários atrinutos em seus indices
+            //Um objeto trata da mesma coisa com objetos diferentes
+
+            //Se você quiser criar um objeto de uma só pessoa, com vários atributos.
+            const pessoa = {nome: 'Talita', idade:27, telefone: '(61) 98765-4321', endereco: 'QD 00 LT 00 CS 00' }
+
+            //Agora se você quiser criar uma Array com várias pessoas (objeto), com vários atriburos.
+            // A diferenciação de objetos para Array se dá por utilizar [] para Arrays e {} para objetos.
+            const pessoas = [
+                {nome: 'Talita', idade:27, telefone: '(61) 98765-4321', endereco: 'QD 00 LT 00 CS 00' },
+                {nome: 'Larissa', idade:24, telefone: '(61) 98765-7799', endereco: 'QD 01 LT 01 CS 01' },
+                {nome: 'Maria', idade:48, telefone: '(61) 98765-3214', endereco: 'QD 02 LT 02 CS 02' },
+                {nome: 'José', idade:59, telefone: '(61) 98765-2585', endereco: 'QD 03 LT 03 CS 03' },
+                {nome: 'Antônio', idade:55, telefone: '(61) 98765-1595', endereco: 'QD 04 LT 04 CS 04' }
+            ]
+
+            console.table(pessoas)
+            //Duas formas que puxar uma informação específica de um objeto
+            console.log(pessoas[2].nome)
+            console.log(pessoas[0]['nome'])
+
+            
+            //Lembrando que uma Array é possível colocar tipos váriados misturados, sem nenhum problema
+            
+            /*
+            console.table(nomes[0])
+            console.table(idades[3])
+            console.table(notas[2][3][0])
+            //Caso tenha mais de duas dimensões dentro de uma Array, não será possível visualizar dentro da tabela, mas poderá ver clicando na setinha
+            console.table(notas)
+            */
+            
+            
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+Fiz algumas observações e explicações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 
