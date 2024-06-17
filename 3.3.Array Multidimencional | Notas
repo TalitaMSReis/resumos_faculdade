@@ -1,0 +1,34 @@
+##  Array Multidimencional | Notas
+
+### Nesta aula aprendi mais sobre Arrays Multidimencionais em uma atividade de notas.
+
+Foi feito um código explorando multidimencionalidade de uma Array em uma atividade prática.
+
+Podemos observar pelo código a seguir.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays Atividade Notas</title>
+        <meta charset="UTF-8">
+        <script>
+           const notas = []
+           const qtd = prompt('Digite a quantidade de notas.')
+
+           for (let i=0; i<qtd; i++){
+            let nota = prompt('Digite a nota.')
+            notas.push(nota)
+           }
+           
+           console.table(notas)
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+``` 
+
+Agradeço a atenção, e até o resumo da próxima aula! 
