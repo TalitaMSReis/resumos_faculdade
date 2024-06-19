@@ -1,1 +1,37 @@
+##  Recursividade | Fatorial
 
+### Nesta aula aprendi sobre Recursividade, sendo ela uma função que chama ela mesma, fazendo assim um loop, e necessitando de um ação que pare esse loop.
+
+Lembrando que a recursividade somente é usada para resolver problemas muito pontuais.
+
+Podemos observar pelo código a seguir.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recursividade</title>
+        <meta charset="UTF-8">
+        <script>
+            //Recursividade é uma função que chama ela mesma, fazendo assim um loop, e necessitando de um ação que pare esse loop.
+            // Lembrando que a recursividade somente é usada para resolver problemas muito pontuais 
+            function fatorial(x){
+                if (x<1){
+                    return 1
+                } else {
+                    return x * fatorial (x -1)
+                }  
+            }
+            console.log(fatorial(prompt('Gostaria do fatorial de qual número?')))
+        </script> 
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+``` 
+
+Fiz algumas observações e explicações dentro do código, você pode observar logo em seguida de `//` ou entre `/*` e `*/`.
+
+Agradeço a atenção, e até o resumo da próxima aula! 
