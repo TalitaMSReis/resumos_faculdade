@@ -1,0 +1,47 @@
+##  Projeto Lojinha | style.css
+
+### Nesta aula faremos um projeto de uma lojinha de tecnologia.
+
+Utilizaremos HTML, CSS e JavaScript.
+
+O seguinte código é referente a parte do CSS.
+
+```
+*{
+    
+    font-family: Arial, Arial, Helvetica, sans-serif; 
+}
+h1{
+    background-color: #555555;
+    padding: 50px;
+    text-align: center;
+    color: #fffafa;
+
+}
+#carrinho{
+    color: #fffafa;
+    background-color: #555555;
+    margin: 10px;
+    
+
+}
+
+footer{
+    
+    color: #fffafa;
+    background-color: #555555;
+    
+    padding: 80px;    
+}
+.produto-item{
+    
+    font-weight: bold;
+
+}
+body{
+    background-color: #fffafa;
+}
+
+``` 
+
+Agradeço a atenção, e até o resumo da próxima aula! 
